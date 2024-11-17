@@ -1,0 +1,5 @@
+/app/routers/category.py
+/app/routers/products.py
+/app/__init__.py
+/app/main.py
+/app/schemas.py
