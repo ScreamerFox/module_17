@@ -3,3 +3,6 @@
 /app/__init__.py
 /app/main.py
 /app/schemas.py
+/app/backend/db.py
+/app/models/category.py
+/app/models/products.py
