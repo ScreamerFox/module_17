@@ -1,11 +1,10 @@
 from homework.module_17_2.backend.db import Base
-#from homework.module_17_2.models import *
+from homework.module_17_2.models import *
 
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.schema import CreateTable
-
 
 
 class Task(Base):
@@ -22,3 +21,4 @@ class Task(Base):
     user = relationship("User", back_populates="tasks")
 
 print(CreateTable(Task.__table__))
+print(CreateTable(User.__table__))
