@@ -6,8 +6,6 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.schema import CreateTable
 
 
-
-
 class User(Base):
     __tablename__ = 'users'
     __table_args__ = {'keep_existing': True}
