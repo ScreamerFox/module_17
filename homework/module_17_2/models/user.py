@@ -1,5 +1,5 @@
 from homework.module_17_2.backend.db import Base
-# from homework.module_17_2.models import *
+from homework.module_17_2.models import *
 
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean
 from sqlalchemy.orm import relationship
